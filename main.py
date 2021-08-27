@@ -14,10 +14,14 @@ def newFunctionBranch1_firstOne(argument):
 def newFunctionBranch2_firstOne(argument):
     print('hello This is a new function', argument, "from branch2")
 
+def newFunctionBranch2_secondOne(argument):
+    print('hello This is a new function', argument)
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     newFunctionBranch1_firstOne("it works")
     newFunctionBranch2_firstOne("Sup")
+    newFunctionBranch2_secondOne("dup")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
